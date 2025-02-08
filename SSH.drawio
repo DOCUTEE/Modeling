@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="CFwmiOBn1drrkZe7O-3P">
-    <mxGraphModel>
+    <mxGraphModel dx="913" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-2" value="id_rsa" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-3" target="nB6Ss98Y1P9h_fkeUMrp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-3" target="nB6Ss98Y1P9h_fkeUMrp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-3" value="ssh key gen" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-4" value="id_rsa.pub" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-7" value="public key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="118" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-8" value="private key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="118" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-9" target="nB6Ss98Y1P9h_fkeUMrp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-9" value="ssh-copy-id" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-10" target="nB6Ss98Y1P9h_fkeUMrp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-10" value="copy context (KEY) in id_rsa.pub" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-11" target="nB6Ss98Y1P9h_fkeUMrp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-11" value="ssh to remote host&lt;div&gt;(ssh root@remote_host)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="240" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nB6Ss98Y1P9h_fkeUMrp-12" target="nB6Ss98Y1P9h_fkeUMrp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-12" value="make direction ~/.ssh" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB6Ss98Y1P9h_fkeUMrp-13" value="paste KEY into authorized_keys file" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="400" width="160" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
